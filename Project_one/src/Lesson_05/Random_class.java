@@ -12,5 +12,16 @@ public class Random_class {
         double randomN_double = random.nextDouble();
         System.out.println("Random double " + randomN_double);
 
+        int[] array = new int[100];
+
+        for (int i = 0; i < array.length; i++) {  // itar
+            array[i] = random.nextInt();
+
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+
+        }
+
     }
 }
