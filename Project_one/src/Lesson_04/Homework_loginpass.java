@@ -7,10 +7,10 @@ public class Homework_loginpass {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите логин");
+        System.out.println("Enter login");
         String login = scanner.next();
 
-        System.out.println("Введите пароль");
+        System.out.println("Enter password");
         String pass = scanner.next();
 
         String loginET = "Undetka";
